@@ -2,60 +2,74 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como atualizar um valor em uma lista?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Para atualizar um valor específico em uma lista, você pode acessar o elemento pelo índice e atribuir um novo valor a ele.
+
+<pre class="brush: python">
+precos = [100.0, 200.0, 300.0]
+indice = 1
+precos[indice] = novo_preco
+
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Como arredondar um valor para uma casa decimal?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Para garantir que o valor atualizado seja arredondado para uma casa decimal, você pode usar a função round(). Por exemplo:
+
+<pre class="brush: python">
+valor = 220.456
+valor_arredondado = round(valor, 1)
+print(valor_arredondado)  # Saída: 220.5
+</pre>
+Isso é útil para manter a precisão no resultado final.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    5
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    6
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

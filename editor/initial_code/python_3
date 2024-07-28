@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def alteracao_elementos(precos, indice):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(alteracao_elementos([100.0, 200.0, 300.0], 1))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert alteracao_elementos([100.0, 200.0, 300.0], 1) == [100.0, 220.0, 300.0]
+assert alteracao_elementos([50.0], 0) == [55.0]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
